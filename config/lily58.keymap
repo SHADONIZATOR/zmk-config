@@ -76,22 +76,22 @@
         Left_lb {
             display-name = "Left_lb";
             bindings = <
-&kp GRAVE  &kp NUMBER_6       &kp NUMBER_7       &kp NUMBER_8    &kp NUMBER_9      &kp NUMBER_0                               &kp F1         &kp F2          &kp F3          &kp F4           &kp F5    &kp F6
-&kp CAPS   &kp LS(LA(LC(M)))  &kp LS(LA(LC(D)))  &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT                                 &kp F7         &kp F8          &kp F9          &kp F10          &kp F11   &kp F12
-&kp LSHFT  &trans             &trans             &trans          &kp H             &kp J                                      &trans         &kp HOME        &kp UP_ARROW    &kp END          &kp LBKT  &kp RBKT
-&kp LCTRL  &trans             &trans             &trans          &trans            &trans        &kp LG(LC(V))    &kp DELETE  &trans         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans    &trans
-                                                 &trans          &kp PRINTSCREEN   &trans        &kp RET          &kp ENTER   &kp RIGHT_ALT  &trans          &trans
+&kp GRAVE  &kp NUMBER_6       &kp NUMBER_7       &kp NUMBER_8    &kp NUMBER_9      &kp NUMBER_0                               &kp F1           &kp F2          &kp F3          &kp F4           &kp F5    &kp F6
+&kp CAPS   &kp LS(LA(LC(M)))  &kp LS(LA(LC(D)))  &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT                                 &kp F7           &kp F8          &kp F9          &kp F10          &kp F11   &kp F12
+&kp LSHFT  &trans             &trans             &trans          &kp H             &kp J                                      &kp LS(PAGE_UP)  &kp HOME        &kp UP_ARROW    &kp END          &kp LBKT  &kp RBKT
+&kp LCTRL  &trans             &trans             &trans          &trans            &trans        &kp LG(LC(V))    &kp DELETE  &kp PAGE_DOWN    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans    &trans
+                                                 &trans          &kp PRINTSCREEN   &trans        &kp RET          &kp ENTER   &kp RIGHT_ALT    &trans          &trans
             >;
         };
 
         Numpad {
             display-name = "Numpad";
             bindings = <
-&studio_unlock  &trans  &trans  &trans  &trans  &trans                              &kp KP_NUMLOCK  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DIVIDE    &trans
-&trans          &trans  &trans  &trans  &trans  &kp GRAVE                           &trans          &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MULTIPLY  &trans
-&trans          &trans  &trans  &trans  &trans  &trans                              &trans          &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_SUBTRACT  &kp SINGLE_QUOTE
-&trans          &trans  &trans  &trans  &trans  &trans     &trans       &kp DELETE  &trans          &kp KP_EQUAL     &kp KP_NUMBER_0  &kp KP_DOT       &kp KP_PLUS      &trans
-                                &trans  &trans  &trans     &kp ENTER    &kp RET     &trans          &trans           &trans
+&studio_unlock  &trans  &trans  &trans                     &trans                 &trans                                                 &kp KP_NUMLOCK  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DIVIDE    &trans
+&trans          &trans  &trans  &kp LS(LA(LC(LESS_THAN)))  &kp LS(LA(LC(SLASH)))  &kp LC(LA(LS(GREATER_THAN)))                           &trans          &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MULTIPLY  &trans
+&trans          &trans  &trans  &trans                     &trans                 &trans                                                 &trans          &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_SUBTRACT  &kp SINGLE_QUOTE
+&trans          &trans  &trans  &trans                     &trans                 &trans                        &trans       &kp DELETE  &trans          &kp KP_EQUAL     &kp KP_NUMBER_0  &kp KP_DOT       &kp KP_PLUS      &trans
+                                &trans                     &trans                 &trans                        &kp ENTER    &kp RET     &trans          &trans           &trans
             >;
         };
 
