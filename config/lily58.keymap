@@ -55,6 +55,7 @@
         Backslash {
             bindings = <&kp BACKSLASH>;
             key-positions = <48 47>;
+            require-prior-idle-ms = <50>;
         };
     };
 
